@@ -1,0 +1,25 @@
+.common_button {
+    background-color: $color-purple-dark-1;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+    color: $color-gray-light-1;
+    font-size: 18px;
+    padding: 8px 48px;
+    text-decoration: none;
+    border: 0px;
+    &.common_button--dark {
+        background-color: $color-purple-dark-1;
+    }
+    &:hover {
+        background-color: $color-purple-light-3;
+    }
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+    &:disabled {
+        color: $color-gray-dark-1;
+        background-color: $color-purple-dark-2;
+    }
+}

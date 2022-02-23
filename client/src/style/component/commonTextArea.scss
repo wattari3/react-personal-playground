@@ -1,0 +1,17 @@
+.common_text_area {
+    background-color: $color-gray-dark-1;
+    display: inline-block;
+    color: $color-gray-light-1;
+    padding: 8px;
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 6px;
+    width: 100%;
+    min-width: 300px;
+    resize: vertical;
+    margin-bottom: 10px;
+    &:disabled {
+        color: $color-gray-light-2;
+        background-color: $color-gray-dark-2;
+    }
+}
